@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+#nav {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(0, 110, 62);
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.h1 {
+    letter-spacing: 3px;
+    text-shadow:3px 3px 3px black ; 
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.head {
+    font-family: 'Limelight', cursive;
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5rem;
+    background-image: linear-gradient(to bottom, #056e34,#190a05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#content {
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 600px;
+    height: 600px;
+    padding: 10px 15px;
+    background-color: #03e1778c;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgba(72, 71, 71, 0.552);
+    overflow-y: auto;
+}
+#content::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  #content::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 110, 62);
+    outline: 1px solid slategrey;
+    border-radius: 500px;
+    border: 0.5px solid transparent;
+    background-clip: content-box;
+  }
+  #content::-webkit-scrollbar-thumb:hover {
+    background-color: white ;
+    outline: 1px solid slategrey;
+    border-radius: 500px;
+  }
+
+h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;  
+}
+
+#input {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 25px;
+}
+
+#input input[type = "text"] {
+    height: 34px;
+    /* border-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: none;
+    padding: 0px 10px;
+}
+
+#addBtn {
+    height: 34px;
+    /* border-radius: 10px; */
+    border-left: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 10px;
+    border: none;
+    background-color: rgb(0, 110, 62);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 25px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+                /* ---------LIST STYLE CLASSES---------- */
+
+.ulStyle {
+    list-style: none;
+}
+
+.listItem {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding-top: 15px;
+}
+
+.ulStyle input[type ="text"]{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+}
+.listStyle {
+    background-color: rgb(0, 110, 62);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.edit {
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-weight: 400;
+}
+.delete {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    font-weight: 400;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,300&family=Limelight&family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/CRUD-style.css" />
+</head>
+
+<body>
+    <nav id="nav">
+        <h1 class="h1">CRUD APP</h1>
+    </nav>
+    <h1 class="head">ToDo List</h1>
+    <div class="container">
+        <div id="content">
+            <h3 id="heading">Tasks List</h3>
+            <form id="form">
+                <div id="input">
+                    <input type="text" name="inputBox" id="inputBox" placeholder="What do you have planned?" />
+                    <button type="submit" id="addBtn">Add Task</button>
+                </div>
+            </form>
+            <div id="output">
+                <h4>Tasks</h4>
+                <ul class="ulStyle">
+                    <!-- <div id="listItem" class="listItem">
+                        <input type="text" name="task" id="listInput" class="inputStyle" value="Take your dog out!"
+                            readonly />
+                        <button id="edit" class="edit listStyle">Edit</button>
+                        <button id="delete" class="delete listStyle">Delete</button>
+                    </div> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/CRUD-js.js"></script>
+</body>
+
+</html>
